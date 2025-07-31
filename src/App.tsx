@@ -1,7 +1,12 @@
 export function App() {
   return (
     <>
-      <h1>Title</h1>
+      <span className="font-inter text-blue text-5xl uppercase font-medium">
+        NoHalt
+      </span>
+      <p className="font-inter text-blue uppercase text-sm tracking-[2px] font-bold">
+        Centro de treinamento
+      </p>
     </>
   );
 }
