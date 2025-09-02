@@ -1,0 +1,85 @@
+@theme {
+    --color-blue: #025a9d;
+    --color-blue-10: #ccdeeb;
+    --color-blue-20: #abc8de;
+    --color-blue-30: #80acce;
+    --color-blue-40: #5691be;
+    --color-blue-50: #2c76ad;
+    --color-blue-60: #024b83;
+    --color-blue-70: #013c69;
+    --color-blue-80: #012d4f;
+    --color-blue-90: #011e34;
+    --color-blue-100: #00121f;
+
+    --color-black: #11100e;
+    --color-black-10: #cfcfcf;
+    --color-black-20: #b0afaf;
+    --color-black-30: #888786;
+    --color-black-40: #60605e;
+    --color-black-50: #393836;
+    --color-black-60: #0e0d0c;
+    --color-black-70: #0b0b09;
+    --color-black-80: #090807;
+    --color-black-90: #060505;
+    --color-black-100: #030303;
+
+    --color-gray: #cecdc8;
+    --color-gray-10: #f5f5f4;
+    --color-gray-20: #efeeed;
+    --color-gray-30: #e6e6e3;
+    --color-gray-40: #dededa;
+    --color-gray-50: #d6d5d1;
+    --color-gray-60: #acaba7;
+    --color-gray-70: #898985;
+    --color-gray-80: #676764;
+    --color-gray-90: #454443;
+    --color-gray-100: #292928;
+
+    --color-lightblue: #3aaaff;
+    --color-lightblue-10: #d8eeff;
+    --color-lightblue-20: #bde3ff;
+    --color-lightblue-30: #9dd5ff;
+    --color-lightblue-40: #7cc6ff;
+    --color-lightblue-50: #5bb8ff;
+    --color-lightblue-60: #308ed5;
+    --color-lightblue-70: #2771aa;
+    --color-lightblue-80: #1d5580;
+    --color-lightblue-90: #133955;
+    --color-lightblue-100: #0c2233;
+
+    --color-success: #419f59;
+    --color-success-10: #d9ecde;
+    --color-success-20: #c0dfc8;
+    --color-success-30: #a0cfac;
+    --color-success-40: #80bf90;
+    --color-success-50: #61af75;
+    --color-success-60: #36854a;
+    --color-success-70: #2b6a3b;
+    --color-success-80: #21502d;
+    --color-success-90: #16351e;
+    --color-success-100: #0d2012;
+
+    --color-warning: #ffa700;
+    --color-warning-10: #ffedcc;
+    --color-warning-20: #ffe2aa;
+    --color-warning-30: #ffd380;
+    --color-warning-40: #ffc455;
+    --color-warning-50: #ffb62a;
+    --color-warning-60: #d58b00;
+    --color-warning-70: #aa6f00;
+    --color-warning-80: #805400;
+    --color-warning-90: #553800;
+    --color-warning-100: #332100;
+
+    --color-error: #9e0200;
+    --color-error-10: #eccccc;
+    --color-error-20: #dfabaa;
+    --color-error-30: #cf8180;
+    --color-error-40: #be5655;
+    --color-error-50: #ae2c2a;
+    --color-error-60: #840200;
+    --color-error-70: #690100;
+    --color-error-80: #4f0100;
+    --color-error-90: #350100;
+    --color-error-100: #200000;
+}
