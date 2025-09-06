@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import { Label } from "../Label";
 
 export interface TextInputProps {
@@ -11,16 +12,19 @@ export interface TextInputProps {
   type?: string;
 }
 
-interface Input extends React.HTMLAttributes<HTMLInputElement> {
+interface InputProps extends React.HTMLAttributes<HTMLInputElement> {
   hasError?: boolean;
   disabled?: boolean;
 }
 
-const Input = ({ hasError, disabled, ...props }: TextInputProps) => {
+const Input = ({ hasError, disabled, className, ...props }: InputProps) => {
   return (
     <input
       {...props}
-      className={`appearance-none w-[100%] px-4 py-2 border-1 ${hasError ? "border-error" : "border-gray-30"} ${disabled ? "text-gray-60 bg-gray-30" : "text-gray-100"} rounded-lg focus:border-blue-30 placeholder:text-gray-70 placeholder:text-[14px]`}
+      className={clsx(
+        `appearance-none w-[100%] px-4 py-2 border-1 ${hasError ? "border-error" : "border-gray-30"} ${disabled ? "text-gray-60 bg-gray-30" : "text-gray-100"} rounded-lg focus:border-blue-30 placeholder:text-gray-70 placeholder:text-[14px]`,
+        className,
+      )}
     />
   );
 };
@@ -32,7 +36,7 @@ export const TextInput = ({
   disabled,
   endIcon,
   ...props
-}: TextInputProps) => {
+}: TextInputProps & InputProps) => {
   return (
     <div className="flex flex-col gap-1">
       {label && (
